@@ -1,0 +1,206 @@
+
+
+@font-face {
+  font-family: 'padrao';
+  src: url(../fonts/Lato-Light.ttf);
+}
+
+@font-face {
+  font-family: 'negrito';
+  src: url(../fonts/Lato-Black.ttf);
+}
+
+@font-face {
+  font-family: 'italico';
+  src: url(../fonts/ComicNeue-Regular.ttf);
+}
+
+*{
+  margin: 0; 
+  padding: 0;
+  font-size:100%; 
+  border:none; 
+  outline: none; 
+  font-weight: 300; 
+  box-sizing: border-box; 
+  }
+
+
+body {
+  margin: 0;
+  font-family: 'padrao';
+}
+
+#header {
+  background: linear-gradient(to right, #4ecdc4, #f1a9a0);
+  padding: 5px 10px;
+  margin: 0;
+
+}
+#header img {
+  width: 100px;
+  margin-left: 10px;
+}
+
+#header ul {
+  list-style: none;
+  float: right;
+  margin-top: 40px;
+
+}
+
+.bg-gradient{
+  background-color: black;
+}
+.btn-menu{
+  width: 50px;
+  height: 50px;
+  float: right;
+  text-align: center;
+  color: white;
+  border-radius: 56px;
+  cursor: pointer;
+  margin-top: 2%;
+}
+
+.menu{
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0,0,0,0.9);
+  top: 0;
+  left: 0;
+
+
+  }
+
+  .btn-close{
+    font-size:1.5em;
+    color: #fff;
+    float: right;
+    cursor: pointer;
+    margin: 2% 3% 0 0;
+    
+
+}
+.menu ul{
+    width: 100%;
+    float: left;
+    text-align: center;
+
+}
+.menu li{
+    padding: 1.5%;
+
+}
+.menu li a {
+    font-size: 2em;
+    color: #4ecdc4;
+    padding: 1.5% 3%;
+}
+.menu li a:hover{
+ color: var(--cor-hover);
+}
+#banner {
+  background: linear-gradient(to right, #FFFAFA, #FFFAFA);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+
+
+}
+
+#superior {
+  display: flex;
+}
+
+#apresentacao {
+  padding-top: 70px;
+}
+
+#apresentacao #titulo {
+  font-size: 270%;
+  font-family: 'negrito';
+  margin-bottom: 0px;
+}
+
+#apresentacao #subtitulo {
+  font-size: 190%;
+  font-family: 'negrito';
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+#apresentacao span {
+  font-size: 180%;
+  font-family: 'italico';
+
+}
+#distorcaoImagem img {
+  width: 80%;
+}
+
+#areaBotoes {
+  text-align: center;
+}
+
+#areaBotoes .botao {
+  padding: 15px 18px;
+  border-radius: 20px;
+  width: 25%;
+  display: inline-block;
+  text-align: left;
+}
+
+#areaBotoes .botao span {
+  font-size: 150%;
+}
+
+#areaBotoes .botao i {
+  float: right;
+  font-size: 1.5em;
+  margin-right: 3%;
+}
+
+#areaBotoes #botaoCartaoDiario {
+  background-color: black;
+  color: white;
+}
+
+#rodape {
+  text-align: center;
+  padding: 30px 20px;
+  background: linear-gradient(to right, #4ecdc4, #f1a9a0);
+  margin: 0;
+
+
+}
+
+#rodape i {
+  font-size: 1.5em;
+  color: black;
+  margin-right: 3%;
+
+}
+
+
+#rodape i:hover {
+  color: white;
+}
+
+#rodape span {
+  margin: 0;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+

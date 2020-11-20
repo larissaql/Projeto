@@ -1,0 +1,73 @@
+doctype html
+
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  meta(http-equiv='X-UA-Compatible' content='ie=edge')
+  link(rel='stylesheet' href='styles/estilos.css')
+  link(rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
+  link(rel='icon' href='img/D2.png')
+  title Face Yourself
+  
+#header
+  img(src='../img/D2.png' alt='Face Yourself')
+  button.bg-gradient.btn-menu
+    i.fa.fa-bars.fa-lg
+  nav.menu
+    a.btn-close
+      i.fa.fa-times
+    ul
+      li
+        a(href='index.html') Home
+      li
+        a(href='#') Sobre Nos
+      li
+        a(href='clinicas.html') Clinicas
+      li
+        a(href='conta.html') Cadastro
+      li
+        a(href='Login.html') Sair
+
+#conteudo
+    block conteudo
+
+#banner
+  #superior
+    #apresentacao
+      h3#titulo FACE YOURSELF
+      h3#subtitulo Seja bem vindo(a)!
+      span
+        | Iremos ajuda-lo(a) nesse caminho de tratamento e busca de melhoria.
+        | Livre-se das amarras da enganacao e ENXERGUE A SI MESMO(A)!
+    #distorcaoImagem
+      img(src='img/teste1.png' alt='Distorção de imagem')
+  #areaBotoes
+    a(href='/')
+      #botaoCartaoDiario.botao
+        span Cart&atilde;o Di&aacute;rio
+        i.fa.fa-arrow-circle-right
+#rodape
+  br
+  br
+  #areaBotoesContato
+    a(href='/')
+      i.fa.fa-facebook
+    a(href='/')
+      i.fa.fa-twitter
+    a(href='/')
+      i.fa.fa-google
+    a(href='/')
+      i.fa.fa-instagram
+    a(href='/')
+      i.fa.fa-envelope
+
+    span
+    | CopyRight &copy;Debora;Larissa 2019. Todos os direitos reservados.
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')
+      script.
+        $(".btn-menu").click(function(){
+        $(".menu").show();
+        });
+        $(".btn-close").click(function(){
+        $(".menu").hide();
+        });

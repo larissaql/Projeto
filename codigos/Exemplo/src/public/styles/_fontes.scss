@@ -1,0 +1,20 @@
+@font-face{
+    font-family:'padrao';
+    src:url(../fonts/Lato-Black.ttf);
+}
+
+@font-face{
+    font-family:'negrito';
+    src:url(../fonts/Lato-Bold.ttf);
+}
+@font-face{
+    font-family:'decorativa';
+    src:url(../fonts/Lato-BlackItalic.ttf);
+}
+
+$fonte-padrao: 'padrao';
+
+$fonte-negrito:'negrito';
+
+$fonte-decorativa:'decorativa';
+
