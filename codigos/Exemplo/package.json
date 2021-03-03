@@ -15,7 +15,7 @@
     "@babel/node": "^7.12.6",
     "@babel/preset-env": "^7.12.1",
     "express": "^4.17.1",
-    "pug": "^3.0.0"
+    "pug": "^3.0.1"
   },
   "devDependencies": {
     "node-sass": "^5.0.0",
